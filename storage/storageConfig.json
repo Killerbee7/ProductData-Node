@@ -1,0 +1,5 @@
+{
+    "storageFile":"product.json",
+    "adapterFile":"productAdapterV2.js",
+    "key":"id"
+}

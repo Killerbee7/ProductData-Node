@@ -1,0 +1,54 @@
+[
+    {
+        "id":2,
+        "name":"MaxEffect 2000",
+        "model":"2017",
+        "type":"stereo",
+        "amount":150
+        },
+        {
+        "id":5,
+        "name":"Cosmos",
+        "model":"2015",
+        "type":"phone",
+        "amount":10
+        },
+        {
+        "id":3,
+        "name":"Beast II",
+        "model":"2005",
+        "type":"tv",
+        "amount":20
+        },
+        {
+        "id":1,
+        "name":"Future 2025",
+        "model":"2000",
+        "type":"monitor",
+        "amount":30
+        },
+        {
+        "id":6,
+        "name":"NexGen 2",
+        "model":"2010",
+        "type":"toaster",
+        "amount":1
+        },
+        {
+        "id":4,
+        "name":"Mercury",
+        "model":"1995",
+        "type":"radio",
+        "amount":7
+        },
+        {
+        "id":7,
+        "name":"Tako delux",
+        "model":"2012",
+        "type":"moccamaster",
+        "amount":5
+        }
+]
+
+
+

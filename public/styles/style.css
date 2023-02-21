@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    
+}
+
+header a {
+    
+    color: white;
+    margin: 0;
+    align-items: center ;
+    
+ 
+ }
+ header a{
+ display: flex;
+ justify-content: space-between;
+ margin: 2rem;
+ list-style-type: none;
+ 
+ }
+ 
+ header  a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+    
+ 
+ }
+
+ h1{
+    color: red;
+ }
+
+ h2{
+    margin-top: 7rem;
+    font-size: 2.5rem;
+    color: white;
+ }
+
+ main, form {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+input[readonly]{
+    background-color: rgb(223, 162, 162);
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    margin-top: 2rem;
+}
+
+table, th,td{
+    border:solid black 1px;
+    padding: 0.5em;
+}
+
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+    background-color:#55608f ;
+}
+
+
+
+input {
+                margin-top: 0.5rem;
+				background-color: whitesmoke;
+				width: 100%;
+				height: 30px;
+				padding: 0 8px;
+				border: 3px solid rgba(0, 0, 0, 0.3);
+				border-radius: 5px;
+				
+}
+label {
+				line-height: 100%;
+				margin-bottom: 7px;
+				font-size: 22px;
+                color: rgb(255, 255, 255);
+                
+}
+
+p{
+    margin-top: 2rem;
+}
+
+
+
+
+
+/* CSS */
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-top: 1.5rem;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}

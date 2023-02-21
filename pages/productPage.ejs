@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Query result</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Dibya Dahal Product Task</h1>
+        <a href="/all">Get all products</a>
+        <a href="/getProduct">Get one Product</a>
+        <a href="/inputform">Add a new Product</a>
+        <a href="/updateform">Update Product Data</a>
+        <a href="/removeproduct">Remove Product Data</a>
+     </header>
+    <main>
+        <h2>Product Data</h2>
+        <p><span class="legend">Person id:</span><span><%= result.id %></span></p>
+        <p>Name: <%= result.name %> </p>
+        <p>Product: <%= result.model %></p>
+        <p>Type is <%= result.type %></p>
+        <p>Amount: <%= result.amount %> €</p>
+        
+    </main>   
+</body>
+</html>

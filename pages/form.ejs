@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dibya Dahal Product Task</h1>
+        <a href="/all">Get all products</a>
+        <a href="/getProduct">Get one Product</a>
+        <a href="/inputform">Add a new Product</a>
+        <a href="/updateform">Update Product Data</a>
+        <a href="/removeproduct">Remove Product Data</a>
+     </header>
+
+    <main>
+        <h2><%= header1 %></h2>
+        <form action="<%= action %>" method="POST">
+            <div>
+                <p>
+                    <label for="id">Product ID:</label>
+                    <input type="text" id="id" name="id" size="5"
+                    value="<%= id.value %>" <%= id.readonly %> >
+                </p>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" size="15"
+                    value="<%= name.value %>" <%= name.readonly %> >
+                </p>
+                <p>
+                    <label for="model">Model:</label>
+                    <input type="text" id="model" name="model" size="25"
+                    value="<%= model.value %>" <%= model.readonly %> >
+                </p>
+                <p>
+                    <label for="type">Type:</label>
+                    <input type="text" id="type" name="type" size="10"
+                    value="<%= type.value %>" <%= type.readonly %> >
+                </p>
+                <p>
+                    <label for="amount">Amount:</label>
+                    <input type="text" id="amount" name="amount" size="10"
+                    value="<%= amount.value %>" <%= amount.readonly %> >
+                </p>
+            </div>
+            <button class="button-62" type="submit">Submit</button>
+        </form>
+        
+    </main>
+</body>
+</html>
